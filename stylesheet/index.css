@@ -1,0 +1,12 @@
+.border-a {
+  width: 10px;
+  border-bottom: 1px solid #333;
+  animation: a 8s 0s ease 1 normal forwards running;
+}
+
+@keyframes a {
+  100% {
+    width: 100%;
+    }
+}
+

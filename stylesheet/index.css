@@ -1,12 +1,73 @@
-.border-a {
-  width: 10px;
-  border-bottom: 1px solid #333;
-  animation: a 8s 0s ease 1 normal forwards running;
+header {
+  /* width: ; */
+  height: 790px;
 }
+/* 初め */
+.header-wrapper {
+  background: rgb(0, 0, 0);
+  animation: back 5s 2s ease 1 normal forwards running;
+}
+@keyframes back {
+  50% {
+  }
+  100% {
+    background: rgb(255, 255, 255);
+  }
+}
+/* 初め */
 
+/* アイコン */
+.icon {
+  position: absolute;
+  top: 40%;
+  left: 49%;
+  z-index: 1;
+  animation: icon 3s 5s ease 1 normal forwards running;
+}
+@keyframes icon {
+  100% {
+    opacity: 0;
+  }
+}
+/* アイコン */
+
+/* 横線 */
+.border-a {
+  height: 150px;
+  width: 0px;
+  border-bottom: 1px solid #333;
+  animation: a 8s 8s ease 1 normal forwards running;
+}
+.border-b {
+  height: 150px;
+  width: 0px;
+  border-bottom: 1px solid #333;
+  animation: a 8s 9s ease 1 normal forwards running;
+}
+.border-c {
+  height: 150px;
+  width: 0px;
+  border-bottom: 1px solid #333;
+  animation: a 8s 10s ease 1 normal forwards running;
+}
+.border-d {
+  height: 150px;
+  width: 0px;
+  border-bottom: 1px solid #333;
+  animation: a 8s 11s ease 1 normal forwards running;
+}
+.border-e {
+  height: 150px;
+  width: 0px;
+  border-bottom: 1px solid #333;
+  animation: a 8s 12s ease 1 normal forwards running;
+}
 @keyframes a {
+  50% {
+  }
   100% {
     width: 100%;
     }
 }
+/* 横線 */
 

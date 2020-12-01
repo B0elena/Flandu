@@ -5,11 +5,29 @@ header {
 /* 初め */
 .header-wrapper {
   background: rgb(0, 0, 0);
-  animation: back 5s 2s ease 1 normal forwards running;
+  animation: back 26s 2s ease 1 normal forwards running;
 }
 @keyframes back {
-  100% {
+  5% {
     background: rgb(255, 255, 255);
+  }
+  80% {
+    background: rgb(255, 255, 255);
+    opacity: 1;
+  }
+  98% {
+    opacity: 0;
+    background: rgba(0, 0, 0, 0)
+  }
+  99% {
+    opacity: 0;
+    background-image: url(../img/f-img7.jpg);
+    background-size: cover;
+  }
+  100% {
+    opacity: 1;
+    background-image: url(../img/f-img7.jpg);
+    background-size: cover;
   }
 }
 /* 初め */
@@ -103,12 +121,12 @@ header {
 .icon-b {
   margin: 30px 100px 0 0;
   opacity: 0;
-  animation: reef 13s 14s ease 1 normal forwards running;
+  animation: reef 12s 15s ease 1 normal forwards running;
 }
 .icon-c {
   margin: 40px 250px 0 0;
   opacity: 0;
-  animation: reef 11s 16s ease 1 normal forwards running;
+  animation: reef 10s 17s ease 1 normal forwards running;
 }
 .icon-d {
   margin: 50px 400px 0 0;

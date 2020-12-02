@@ -1,6 +1,7 @@
+/*------ ヘッダー ------*/
 header {
   width: 100%;
-  height: 790px;
+  height: 750px;
 }
 
 .fland-link {
@@ -9,7 +10,7 @@ header {
 .icon-link {
   position: fixed;
   top: 40px;
-  left: 40px;
+  right: 40px;
   opacity: 0;
   z-index: 2;
   animation: link 2s 27.5s ease 1 normal forwards running;
@@ -180,3 +181,50 @@ header {
   }
 }
 /* 葉っぱアイコン */
+/*------ ヘッダー ------*/
+
+/*------ メイン ------*/
+.color-wrapper {
+  height: 400px;
+  padding: 50px 20px;
+  display: flex;
+}
+
+.color-wrapper-left {
+  width: 25%;
+  padding: 15px 0 15px 60px;
+  margin: auto;
+}
+
+.color-wrapper-left > h1 {
+  padding: 10px 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.color-wrapper-left li {
+  padding: 3px;
+}
+
+.color-wrapper-left a:hover {
+  color: coral;
+}
+
+.color-wrapper-right {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-wrapper {
+  padding: 20px;
+  width: 31%;
+}
+
+.flower-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/*------ メイン ------*/

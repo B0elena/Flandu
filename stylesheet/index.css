@@ -70,31 +70,31 @@ header {
 .border-a {
   height: 150px;
   width: 0px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid rgb(255, 200, 130);
   animation: bo 19s 8s ease 1 normal forwards running;
 }
 .border-b {
   height: 150px;
   width: 0px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid rgb(255, 200, 130);
   animation: bo 18s 9s ease 1 normal forwards running;
 }
 .border-c {
   height: 150px;
   width: 0px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid rgb(255, 200, 130);
   animation: bo 17s 10s ease 1 normal forwards running;
 }
 .border-d {
   height: 150px;
   width: 0px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid rgb(255, 200, 130);
   animation: bo 16s 11s ease 1 normal forwards running;
 }
 .border-e {
   height: 150px;
   width: 0px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid rgb(255, 200, 130);
   animation: bo 15s 12s ease 1 normal forwards running;
 }
 @keyframes bo {
@@ -113,7 +113,7 @@ header {
 /* タイトル */
 .flandu {
   font-size: 50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: serif;
   opacity: 0;
   padding: 20px;
   text-align: center;
@@ -184,33 +184,69 @@ header {
 /*------ ヘッダー ------*/
 
 /*------ メイン ------*/
-.color-wrapper {
+/* タイトル共通 */
+.sentence {
+  text-align: center;
+  font-family: serif;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 1px solid rgb(255, 200, 130);
+}
+
+.sentence-en-ttl {
+  font-size: 40px;
+}
+
+.sentence-ja-ttl {
+  font-size: 20px;
+}
+/* タイトル共通 */
+
+/* コンセプト */
+.concept-content {
+  padding: 50px;
+  text-align: center;
+  font-family: serif;
+  font-size: 14px;
+}
+
+/* コンセプト */
+
+/* 商品一覧 */
+.wrapper {
   height: 400px;
   padding: 50px 20px;
   display: flex;
 }
 
-.color-wrapper-left {
+.wrapper-left {
   width: 25%;
   padding: 15px 0 15px 60px;
   margin: auto;
 }
 
-.color-wrapper-left > h1 {
+.wrapper-left > h1 {
+  font-family: serif;
   padding: 10px 10px 0;
   margin-bottom: 10px;
   border-bottom: 1px solid #333;
 }
 
-.color-wrapper-left li {
+.wrapper-left li {
   padding: 3px;
+  font-family: serif;
 }
 
-.color-wrapper-left a:hover {
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 145, 0);
+}
+
+.wrapper-left a:hover {
   color: coral;
 }
 
-.color-wrapper-right {
+.wrapper-right {
   width: 75%;
   display: flex;
   justify-content: space-around;
@@ -225,6 +261,15 @@ header {
 .flower-img {
   width: 100%;
   border-radius: 5px;
+  transition: 0.5s;
 }
 
+.flower-img:hover {
+  opacity: 0.7;
+}
+/* 商品一覧 */
+
+/* ニュース */
+
+/* ニュース */
 /*------ メイン ------*/

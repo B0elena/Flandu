@@ -4,7 +4,7 @@ header {
   height: 750px;
 }
 
-.fland-link {
+.flandu-link {
   color: rgb(255, 200, 130);
 }
 .icon-link {
@@ -13,6 +13,72 @@ header {
   right: 40px;
   opacity: 0;
   z-index: 2;
+  animation: link 2s 27.5s ease 1 normal forwards running;
+}
+.nav-concept {
+  font-family: serif;
+  font-size: 14px;
+  color: rgba(255, 201, 130);
+  transform: rotate(90deg);
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  opacity: 0;
+  z-index: 2;
+  transform-origin: right top;
+  animation: link 2s 27.5s ease 1 normal forwards running;
+}
+
+.nav-item {
+  font-family: serif;
+  font-size: 14px;
+  color: rgba(255, 201, 130);
+  transform: rotate(90deg);
+  position: fixed;
+  top: 280px;
+  right: 20px;
+  opacity: 0;
+  z-index: 2;
+  transform-origin: right top;
+  animation: link 2s 27.5s ease 1 normal forwards running;
+}
+.nav-news {
+  font-family: serif;
+  font-size: 14px;
+  color: rgba(255, 201, 130);
+  transform: rotate(90deg);
+  position: fixed;
+  top: 370px;
+  right: 20px;
+  opacity: 0;
+  z-index: 2;
+  transform-origin: right top;
+  animation: link 2s 27.5s ease 1 normal forwards running;
+}
+.nav-information {
+  font-family: serif;
+  font-size: 14px;
+  color: rgba(255, 201, 130);
+  transform: rotate(90deg);
+  position: fixed;
+  top: 500px;
+  right: 20px;
+  opacity: 0;
+  z-index: 2;
+  transform-origin: right top;
+  animation: link 2s 27.5s ease 1 normal forwards running;
+}
+.nav-access {
+  font-family: serif;
+  font-size: 14px;
+  color: rgba(255, 201, 130);
+  transform: rotate(90deg);
+  position: fixed;
+  top: 600px;
+  right: 20px;
+  opacity: 0;
+  z-index: 2;
+  transform-origin: right top;
   animation: link 2s 27.5s ease 1 normal forwards running;
 }
 @keyframes link {
@@ -47,6 +113,7 @@ header {
     opacity: 1;
     background-image: url(../img/f-img7.jpg);
     background-size: cover;
+    background-attachment: fixed;
   }
 }
 /* 初め */
@@ -202,6 +269,27 @@ header {
 }
 /* タイトル共通 */
 
+/* スペース */
+.space-a {
+  height: 100px;
+  background-image: url('../img/f-img2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.space-b {
+  height: 100px;
+  background-image: url('../img/f-img4.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.space-c {
+  height: 100px;
+  background-image: url('../img/f-img4.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* スペース */
+
 /* コンセプト */
 .concept-content {
   padding: 50px;
@@ -270,6 +358,47 @@ span {
 /* 商品一覧 */
 
 /* ニュース */
+.news-content {
+  width: 65%;
+  margin: 20px auto;
+  font-family: serif;
+  margin-bottom: 100px;
+}
+.news-content li > time {
+margin-right: 100px;
+}
 
+.news-content li {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 1px dashed rgb(255, 200, 130);
+}
 /* ニュース */
 /*------ メイン ------*/
+
+/* フッター */
+footer {
+
+}
+
+/* フッター */
+
+.copyright {
+  font-family: serif;
+  font-size: 14px;
+  color: rgba(255, 201, 130);
+  transform: rotate(-90deg);
+  position: fixed;
+  top: 500px;
+  left: 20px;
+  opacity: 0;
+  z-index: 2;
+  transform-origin: left top;
+  animation: cp 2s 27.5s ease 1 normal forwards running;
+}
+@keyframes cp {
+  100% {
+    opacity: 1;
+  }
+}

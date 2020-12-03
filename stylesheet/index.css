@@ -377,6 +377,35 @@ margin-right: 100px;
 /* ニュース */
 
 /* アクセス */
+.address {
+  display: flex;
+}
+
+.map {
+  width: 50%;
+  height: 400px;
+  margin: 30px 60px;
+}
+
+address {
+  width: 50%;
+  font-family: serif;
+  font-size: 15px;
+}
+
+dl {
+  margin: 100px 0 0 100px;
+}
+
+dt {
+  float: left;
+  width: 150px;
+}
+
+.hosoku {
+  padding: 20px 0;
+  font-size: 13px;
+}
 /* アクセス */
 
 /* ご案内 */
@@ -408,9 +437,30 @@ margin-right: 100px;
 
 /* フッター */
 footer {
+  margin-top: 100px;
+  border-top: 1px solid rgb(255, 200, 130);
   height: 200px;
 }
 
+.footer-content {
+  display: flex;
+}
+
+.footer-ttl {
+  font-family: serif;
+  padding: 70px 100px 70px 100px;
+}
+
+i {
+  color: rgb(255, 200, 130);
+  padding: 70px 50px 70px 0;
+}
+
+.footer-down {
+  height: 15px;
+  background: rgb(255, 200, 130);
+
+}
 /* フッター */
 
 .copyright {

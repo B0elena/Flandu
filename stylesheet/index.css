@@ -17,7 +17,7 @@ header {
 }
 .nav-concept {
   font-family: serif;
-  font-size: 14px;
+  font-size: 15px;
   color: rgba(255, 201, 130);
   transform: rotate(90deg);
   position: fixed;
@@ -31,7 +31,7 @@ header {
 
 .nav-item {
   font-family: serif;
-  font-size: 14px;
+  font-size: 15px;
   color: rgba(255, 201, 130);
   transform: rotate(90deg);
   position: fixed;
@@ -44,7 +44,7 @@ header {
 }
 .nav-news {
   font-family: serif;
-  font-size: 14px;
+  font-size: 15px;
   color: rgba(255, 201, 130);
   transform: rotate(90deg);
   position: fixed;
@@ -55,26 +55,26 @@ header {
   transform-origin: right top;
   animation: link 2s 27.5s ease 1 normal forwards running;
 }
-.nav-information {
+.nav-access {
   font-family: serif;
-  font-size: 14px;
+  font-size: 15px;
   color: rgba(255, 201, 130);
   transform: rotate(90deg);
   position: fixed;
-  top: 500px;
+  top: 470px;
   right: 20px;
   opacity: 0;
   z-index: 2;
   transform-origin: right top;
   animation: link 2s 27.5s ease 1 normal forwards running;
 }
-.nav-access {
+.nav-information {
   font-family: serif;
-  font-size: 14px;
+  font-size: 15px;
   color: rgba(255, 201, 130);
   transform: rotate(90deg);
   position: fixed;
-  top: 600px;
+  top: 610px;
   right: 20px;
   opacity: 0;
   z-index: 2;

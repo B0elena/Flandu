@@ -13,7 +13,7 @@ header {
   right: 40px;
   opacity: 0;
   z-index: 2;
-  animation: link 2s 27.5s ease 1 normal forwards running;
+  animation: link 2s 26.5s ease 1 normal forwards running;
 }
 .nav-concept {
   font-family: serif;
@@ -26,7 +26,7 @@ header {
   opacity: 0;
   z-index: 2;
   transform-origin: right top;
-  animation: link 2s 27.5s ease 1 normal forwards running;
+  animation: link 2s 26.5s ease 1 normal forwards running;
 }
 
 .nav-item {
@@ -40,7 +40,7 @@ header {
   opacity: 0;
   z-index: 2;
   transform-origin: right top;
-  animation: link 2s 27.5s ease 1 normal forwards running;
+  animation: link 2s 26.5s ease 1 normal forwards running;
 }
 .nav-news {
   font-family: serif;
@@ -53,7 +53,7 @@ header {
   opacity: 0;
   z-index: 2;
   transform-origin: right top;
-  animation: link 2s 27.5s ease 1 normal forwards running;
+  animation: link 2s 26.5s ease 1 normal forwards running;
 }
 .nav-access {
   font-family: serif;
@@ -66,7 +66,7 @@ header {
   opacity: 0;
   z-index: 2;
   transform-origin: right top;
-  animation: link 2s 27.5s ease 1 normal forwards running;
+  animation: link 2s 26.5s ease 1 normal forwards running;
 }
 .nav-information {
   font-family: serif;
@@ -79,7 +79,7 @@ header {
   opacity: 0;
   z-index: 2;
   transform-origin: right top;
-  animation: link 2s 27.5s ease 1 normal forwards running;
+  animation: link 2s 26.5s ease 1 normal forwards running;
 }
 @keyframes link {
   100% {
@@ -91,7 +91,7 @@ header {
 .header-wrapper {
   width: 100%;
   background: rgb(0, 0, 0);
-  animation: back 26s 2s ease 1 normal forwards running;
+  animation: back 26s 1s ease 1 normal forwards running;
 }
 @keyframes back {
   5% {
@@ -124,7 +124,7 @@ header {
   top: 40%;
   left: 48.5%;
   z-index: 1;
-  animation: icon 3s 5s ease 1 normal forwards running;
+  animation: icon 3s 4s ease 1 normal forwards running;
 }
 @keyframes icon {
   100% {
@@ -138,31 +138,31 @@ header {
   height: 150px;
   width: 0px;
   border-bottom: 1px solid rgb(255, 200, 130);
-  animation: bo 19s 8s ease 1 normal forwards running;
+  animation: bo 19s 7s ease 1 normal forwards running;
 }
 .border-b {
   height: 150px;
   width: 0px;
   border-bottom: 1px solid rgb(255, 200, 130);
-  animation: bo 18s 9s ease 1 normal forwards running;
+  animation: bo 18s 8s ease 1 normal forwards running;
 }
 .border-c {
   height: 150px;
   width: 0px;
   border-bottom: 1px solid rgb(255, 200, 130);
-  animation: bo 17s 10s ease 1 normal forwards running;
+  animation: bo 17s 9s ease 1 normal forwards running;
 }
 .border-d {
   height: 150px;
   width: 0px;
   border-bottom: 1px solid rgb(255, 200, 130);
-  animation: bo 16s 11s ease 1 normal forwards running;
+  animation: bo 16s 10s ease 1 normal forwards running;
 }
 .border-e {
   height: 150px;
   width: 0px;
   border-bottom: 1px solid rgb(255, 200, 130);
-  animation: bo 15s 12s ease 1 normal forwards running;
+  animation: bo 15s 11s ease 1 normal forwards running;
 }
 @keyframes bo {
   20% {
@@ -184,7 +184,7 @@ header {
   opacity: 0;
   padding: 20px;
   text-align: center;
-  animation: title 13.8s 13s ease 1 normal forwards running;
+  animation: title 13.8s 12s ease 1 normal forwards running;
 }
 @keyframes title {
   20% {
@@ -207,35 +207,35 @@ header {
 .icon-b {
   margin: 30px 100px 0 0;
   opacity: 0;
-  animation: reef 12s 15s ease 1 normal forwards running;
+  animation: reef 12s 14s ease 1 normal forwards running;
 }
 .icon-c {
   margin: 40px 250px 0 0;
   opacity: 0;
-  animation: reef 10s 17s ease 1 normal forwards running;
+  animation: reef 10s 16s ease 1 normal forwards running;
 }
 .icon-d {
   margin: 50px 400px 0 0;
   opacity: 0;
-  animation: reef 11s 18s ease 1 normal forwards running;
+  animation: reef 11s 17s ease 1 normal forwards running;
 }
 .icon-e {
   margin: 50px 0 0 400px;
   opacity: 0;
   transform: rotate(90deg);
-  animation: reef 8s 19s ease 1 normal forwards running;
+  animation: reef 8s 18s ease 1 normal forwards running;
 }
 .icon-f {
   margin: 20px 0 0 250px;
   opacity: 0;
   transform: rotate(45deg);
-  animation: reef 7s 20s ease 1 normal forwards running;
+  animation: reef 7s 19s ease 1 normal forwards running;
 }
 .icon-g {
   margin: 10px 0 0 50px;
   opacity: 0;
   transform: rotate(-90deg);
-  animation: reef 6s 21s ease 1 normal forwards running;
+  animation: reef 6s 20s ease 1 normal forwards running;
 }
 @keyframes reef {
   96%{ 
